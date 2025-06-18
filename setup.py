@@ -8,11 +8,11 @@ if sys.platform == "win32":
     # Se for um aplicativo GUI (ex: Tkinter, PyQt), use "Win32GUI"
 
 executables = [
-    Executable("coletor_logs.py", base=base),
-    Executable("grafico_uso.py", base=base),
-    Executable("monitor_space.py", base=base), 
-    Executable("latency_monitor.py", base=base),
-    Executable("plot_latency_data.py", base=base),
+  #  Executable("coletor_logs.py", base=base),
+  #  Executable("grafico_uso.py", base=base),
+  #  Executable("monitor_space.py", base=base), 
+  #  Executable("latency_monitor.py", base=base),
+  #  Executable("plot_latency_data.py", base=base),
     Executable("SQL.py", base=base)
 ]
 
