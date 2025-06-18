@@ -1,0 +1,42 @@
+1-windows install python
+   https://www.python.org/downloads/
+2-adicionar python no PATH C:\Users\FelipeGustinelliBort\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0
+2.1-use windows / run / sysdm.cpl
+3-pip install paramiko
+4-adicionar pip no PATH C:\Users\FelipeGustinelliBort\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\Scripts
+5-Obter a Chave Privada
+Se sua chave privada estiver no formato .pem, você pode usá-la diretamente.
+Caso tenha uma chave no formato PuTTY (.ppk), converta para .pem com o PuTTYgen:
+
+Abra o PuTTYgen (instalado com o PuTTY).
+Clique em Load e selecione sua chave .ppk.
+Vá em Conversions > Export OpenSSH Key.
+Salve a chave como minha_chave.pem.
+==============
+6-pip install pandas matplotlib
+
+=====
+PARTE SQL
+7- pip install flask ibm-db ibm-db-sa 
+8- pip install jaydebeapi
+9-colocar db2jcc4.jar no diretorio scripts
+10-Definir JAVA_HOME=C:\Program Files\Java\jdk-17 pegar de where java 
+
+
+
+
+     pip install pyinstaller
+     
+     pip install cx_Freeze
+     
+Add new scripts in setup.py
+
+
+python setup.py build
+
+zip and send build folder
+
+   
+
+
+ 
